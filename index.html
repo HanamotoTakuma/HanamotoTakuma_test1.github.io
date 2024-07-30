@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ティムタムゲーム</title>
+    <link rel="stylesheet" href="design.css">
+
+</head>
+<body>
+    <header>
+        <h1>ティムタムゲーム</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <p>私が「ティム」または「タム」を13回繰り返します。14回目に何が来るかを当ててください。</p>
+            <button id="start-btn">ゲーム開始</button>
+        </section>
+
+        <section id="game" class="hidden">
+            <div id="sequence"></div>
+            <div id="guess-section">
+
+                <p>14回目は何が来るでしょうか？</p>
+
+                <button id="guess-tim">ティム</button>
+                <button id="guess-tam">タム</button>
+            </div>
+        </section>
+
+        <section id="result-section" class="hidden">
+            <div id="result"></div>
+            <button id="restart-btn">もう一度プレイ</button>
+        </section>
+        
+    </main>
+    <script type="text/javascript" src="naiyou.js"></script>
+
+</body>
+</html>
